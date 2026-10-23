@@ -1,0 +1,35 @@
+{
+  "_not": "Her yıl yeni bir 'years' kaydı ekleyin ve bu dosyayı https://bunner48-dev.github.io/mesaikupu-legal/tax_params.json adresine yükleyin. Uygulamalar en geç 24 saat içinde alır. limit: yıllık matrah üst sınırı (sonuncu için null).",
+  "years": [
+    {
+      "year": 2025,
+      "minimumGross": 26005.5,
+      "sgkRate": 0.14,
+      "unemploymentRate": 0.01,
+      "stampRate": 0.00759,
+      "ceilingMultiplier": 7.5,
+      "brackets": [
+        { "limit": 158000, "rate": 0.15 },
+        { "limit": 330000, "rate": 0.20 },
+        { "limit": 800000, "rate": 0.27 },
+        { "limit": 4300000, "rate": 0.35 },
+        { "limit": null, "rate": 0.40 }
+      ]
+    },
+    {
+      "year": 2026,
+      "minimumGross": 33030,
+      "sgkRate": 0.14,
+      "unemploymentRate": 0.01,
+      "stampRate": 0.00759,
+      "ceilingMultiplier": 7.5,
+      "brackets": [
+        { "limit": 190000, "rate": 0.15 },
+        { "limit": 400000, "rate": 0.20 },
+        { "limit": 1500000, "rate": 0.27 },
+        { "limit": 5300000, "rate": 0.35 },
+        { "limit": null, "rate": 0.40 }
+      ]
+    }
+  ]
+}
